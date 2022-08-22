@@ -2,6 +2,7 @@
 
 This repository is a part of the Decentralize foot bet Dapp.
 This is the Chainlink external adapter that able all the deployed smart contracts to know which team win.
+Powered by [football-data.org](https://www.football-data.org) API.
 
 ## Input Params
 
