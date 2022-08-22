@@ -61,13 +61,13 @@ curl -X POST -H "content-type:application/json" "http://localhost:8080/" --data 
 If you wish to use Docker to run the adapter, you can build the image by running the following command:
 
 ```bash
-docker build . -t external-adapter
+sudo docker build . -t external-adapter
 ```
 
 Then run it with:
 
 ```bash
-docker run -p 8080:8080 -it external-adapter:latest
+sudo docker run -p 8080:8080 -it external-adapter:latest
 ```
 
 ## Serverless hosts
